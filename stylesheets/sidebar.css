@@ -10,6 +10,7 @@ nav {
   overflow: hidden;
   opacity: .1;
   transition: all .8s ease-out;
+  margin-top: 42px;
 }
 nav:hover {
   opacity: 1;
