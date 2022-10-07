@@ -5,18 +5,17 @@ nav {
   width: 300px;
   display: block;
   position: fixed;
-  top: 10px;
+  top: 110px;
   left: 20px;
   overflow: hidden;
   opacity: .1;
   transition: all .8s ease-out;
-  margin-top: 42px;
 }
 nav:hover {
   opacity: 1;
   transition: all .1s ease-out;
 }
-nav p {
+nav > ul > li:first-child {
   font-weight: bold;
 }
 nav a {
